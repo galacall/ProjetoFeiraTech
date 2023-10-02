@@ -4,6 +4,7 @@ aaaaaaa
 ## Justificativa
 O tema que o grupo abordou é sobre a dificuldade dos artistas de entrar no mercado que dificulta mais ainda o artíficie a seguir uma área que atualmente está lentamente sendo desvalorizada, o intuito de divulgar artistas independentes em uma Rede Social específica para este tema.
 ## Problema
+A desvalorização da arte no Brasil tem implicações profundas. Ela mina a identidade cultural, sufoca a inovação e a criatividade, prejudica a educação, impacta negativamente a economia criativa, perpetua condições precárias para os artistas, reflete prioridades sociais desequilibradas e coloca em risco o patrimônio cultural. Reconhecer e valorizar a arte é crucial para construir uma sociedade culturalmente rica, inovadora e inclusiva no Brasil.
 ## Hipóteses
 ## Objetivo
 Renan
