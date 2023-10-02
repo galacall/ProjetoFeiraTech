@@ -7,4 +7,5 @@ O tema que o grupo abordou é sobre a dificuldade dos artistas de entrar no merc
 ## Hipóteses
 ## Objetivo
 Renan
+O objetivo da criação de um site contra a desvalorização da arte é aumentar a conscientização pública sobre a importância da arte na cultura e na sociedade. O site serve como uma plataforma para promover artistas, educar o público sobre a arte e suas diversas formas, advogar por políticas de apoio à arte e criar um espaço de conexão e colaboração entre artistas e apreciadores da arte. Além disso, busca sensibilizar para a diversidade e inclusão na arte e, potencialmente, arrecadar fundos para apoiar artistas e iniciativas artísticas. O site desempenha um papel crucial na proteção e promoção da arte em níveis local e global, contribuindo para a valorização da expressão artística na sociedade.
 ## Metodologia
