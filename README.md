@@ -1,1 +1,1 @@
-# ProjetoFeiraTech
+# Projeto da Feira Tecnológica
