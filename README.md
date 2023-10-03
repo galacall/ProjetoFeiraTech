@@ -1,6 +1,7 @@
 # Projeto da Feira Tecnológica
 ## Introdução
-   A valorização da cultura artistica estadual é um
+   A valorização da cultura artistica é papel muito importante para a preservação da cultura estadual, pensando nisso a Sparte foi criada com o papel de divulgar e potencializar a cultura  artistica do estado de São Paulo, divulgando desde artistas independentes até exposições onde esses podem ir divulgar presencialmente seus trabalhos, essa plataforma pretende auxiliar para o fim da invisibilização da arte, apresentando arte para todos, de uma forma direta, simples e inovadora
+                                                                                                               
 ## Justificativa
 O tema que o grupo abordou é sobre a dificuldade dos artistas de entrar no mercado que dificulta mais ainda o artíficie a seguir uma área que atualmente está lentamente sendo desvalorizada, o intuito de divulgar artistas independentes em uma Rede Social específica para este tema.
 ## Problema
