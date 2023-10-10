@@ -1,0 +1,23 @@
+<header>
+    <nav class="navbar">
+        <button class="close-button" (click)="toggleNavbar()">&#10006;</button>
+        <ul>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/login">Login</a></li>
+            
+            <li><a href="#section3">Seção 3</a></li>
+        </ul>
+    </nav>
+    <ul class="head-hd">
+      <div class="menu-icon" (click)="toggleNavbar()">&#9776;</div>
+      <li class="head-item">
+        <a class="head-link" routerLink="/">Logo da Sparte</a>
+      </li>
+      <li class="">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Pesquisar...">
+            <button class="search-icon">Botao</button>
+        </div>
+      </li>
+    </ul>
+</header>
