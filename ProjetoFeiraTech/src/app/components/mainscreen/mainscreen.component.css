@@ -12,6 +12,7 @@ main {
 .text{
     font-weight: bolder;
     font-size: 25px;
+    padding: 10px;
 }
 .red {color: #ee2121;}
 .green {color: #009c19;}
@@ -19,3 +20,20 @@ main {
 .orange {color: #ff6b00;}
 .sky-blue {color: #00b9f3;}
 .yellow{color: #fff500;}
+
+.container-qs{
+ background-color: #CDCCD3;
+ margin: 0 auto;
+ width: 97%;
+ line-height: 1.5;
+font-size: x-large;
+padding: 35px;
+border-radius: 70px;
+}
+.imagem{
+    float: right;
+    margin-right: 15px;
+    width: 300px;
+
+}
+

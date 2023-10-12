@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #EBEBEB;
 }
 .login-container h1 {
     font-size:xx-large;
@@ -41,7 +42,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .login-container button {
     padding: 12px;
@@ -56,6 +57,7 @@
     background-color: #5e00aa;
     color: #fff;
     margin-top: 10px;
+    border-radius: 45px;
 }
 .login-container .botao-login:hover {
     background-color: #7c00e2;

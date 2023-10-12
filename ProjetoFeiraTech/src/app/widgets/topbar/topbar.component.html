@@ -1,23 +1,36 @@
 <header>
     <nav class="navbar">
         <button class="close-button" (click)="toggleNavbar()">&#10006;</button>
-        <ul>
-            <li><a routerLink="/">Home</a></li>
+        <ul style="margin-top: 60px; margin-left: 10px;">
+            <li ><a routerLink="/">Home</a></li>
             <li><a routerLink="/login">Login</a></li>
             
-            <li><a href="#section3">Seção 3</a></li>
+            <li><a href="">Conheça os artistas</a></li>
+            <li> <a href=""> Onde estudar?</a> </li>
+            <li> <a href="">Inspire-se</a></li>
+            <li><a href=""> Exposições</a></li>
         </ul>
     </nav>
     <ul class="head-hd">
       <div class="menu-icon" (click)="toggleNavbar()">&#9776;</div>
       <li class="head-item">
-        <a class="head-link" routerLink="/">Logo da Sparte</a>
+        <a class="head-link" routerLink="/"><img src="/assets/img/logo-sparte.png" alt="" width="150px" ></a>
       </li>
       <li class="">
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Pesquisar...">
-            <button class="search-icon">Botao</button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 52 56" fill="none">
+              <path d="M37.068 34.6182H34.7253L33.895 33.7685C36.8011 30.1808 38.5507 25.5231 38.5507 20.4562C38.5507 9.15809 29.9213 0 19.2754 0C8.62944 0 0 9.15809 0 20.4562C0 31.7543 8.62944 40.9124 19.2754 40.9124C24.0497 40.9124 28.4386 39.0556 31.8192 35.9715L32.6199 36.8527V39.3389L47.4471 55.043L51.8656 50.3538L37.068 34.6182ZM19.2754 34.6182C11.8914 34.6182 5.93088 28.2925 5.93088 20.4562C5.93088 12.6199 11.8914 6.29422 19.2754 6.29422C26.6593 6.29422 32.6199 12.6199 32.6199 20.4562C32.6199 28.2925 26.6593 34.6182 19.2754 34.6182Z" fill="#990404"/>
+            </svg>
+            
         </div>
+        
+      </li>
+      <li class="perfil">
+        <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 100 95" fill="none">
+          <path d="M50 0C22.4 0 0 21.0933 0 47.0833C0 73.0733 22.4 94.1667 50 94.1667C77.6 94.1667 100 73.0733 100 47.0833C100 21.0933 77.6 0 50 0ZM50 14.125C58.3 14.125 65 20.4342 65 28.25C65 36.0658 58.3 42.375 50 42.375C41.7 42.375 35 36.0658 35 28.25C35 20.4342 41.7 14.125 50 14.125ZM50 80.9833C37.5 80.9833 26.45 74.9567 20 65.8225C20.15 56.4529 40 51.3208 50 51.3208C59.95 51.3208 79.85 56.4529 80 65.8225C73.55 74.9567 62.5 80.9833 50 80.9833Z" fill="#FCA7A7"/>
+        </svg>
       </li>
     </ul>
+    
 </header>

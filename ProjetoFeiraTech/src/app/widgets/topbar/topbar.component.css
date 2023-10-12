@@ -4,7 +4,7 @@ header {
     left: 0;
     right: 0;
     background-color: #700404; /* Cor de fundo da barra de navegação */
-    padding: 10px 20px; 
+    padding: 5px 5px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     z-index: 999;
 }
@@ -38,10 +38,11 @@ header {
     display: flex;
     justify-content: flex-end; 
     align-items: center; 
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 10px;
     margin-right: 20px;
     width: 1000px;
+    border-radius: 30px;
 }
 
 .search-input {
@@ -83,7 +84,9 @@ header {
     left: -1000px; 
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-image: url("/assets/img/fundo-nav.png");
+    background-size: cover;
+     background-repeat: no-repeat;
     color: #fff;
     transition: left 0.3s;
 }
@@ -94,7 +97,8 @@ header {
 }
 
 .navbar li {
-    padding: 10px;
+    padding: 20px;
+    position: relative;
 }
 
 .navbar a {
@@ -118,3 +122,9 @@ header {
     border: none;
     color: #fff;
   }
+
+.perfil{
+    position: absolute;
+    right: 0%;
+    padding-right: 25px;
+}
