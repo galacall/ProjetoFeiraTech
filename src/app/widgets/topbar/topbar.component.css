@@ -1,0 +1,135 @@
+header {
+    position: fixed; /* Fixa a barra de navegação no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #700404; /* Cor de fundo da barra de navegação */
+    padding: 5px 5px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 999;
+    height: 117px;
+}
+  
+.head-hd {
+    list-style-type: none; /* Sem bolinhas */
+    padding: 0;
+    display: flex; /* Lista na horizontal */
+    align-items: center;
+}
+  
+.head-item {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+  
+.head-link {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold; 
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+.head-titulo {
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    background-color: #ffffff;
+    padding: 10px;
+    margin-right: 20px;
+    width: 1000px;
+    border-radius: 30px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.search-input {
+    flex-grow: 1; 
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.search-icon {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    color: #ffffff;
+    font-size: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .search-input {
+        flex-grow: 0; 
+        width: 50%; 
+    }
+    .search-button {
+        margin-left: 5px; 
+    }
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -1000px; 
+    width: 250px;
+    height: 100%;
+    background-image: url("/assets/img/fundo-nav.png");
+    background-size: cover;
+     background-repeat: no-repeat;
+    color: #fff;
+    transition: left 0.3s;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 20px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    margin-left: 0;
+    padding-left: 20px; 
+    transition: margin-left 0.3s;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+
+.perfil{
+    position: absolute;
+    right: 0%;
+    padding-right: 25px;
+}
