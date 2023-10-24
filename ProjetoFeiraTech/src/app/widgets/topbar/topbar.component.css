@@ -128,3 +128,12 @@ header {
     right: 0%;
     padding-right: 25px;
 }
+
+a.nav{
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px; 
+    margin-left: 10px; 
+    color: #fff;
+}
