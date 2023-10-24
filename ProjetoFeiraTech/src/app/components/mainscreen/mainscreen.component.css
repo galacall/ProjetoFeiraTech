@@ -24,10 +24,10 @@ main {
 .container-qs{
  background-color: #CDCCD3;
  margin: 0 auto;
- width: 97%;
+ width: 85%;
  line-height: 1.5;
 font-size: x-large;
-padding: 35px;
+padding: 30px;
 border-radius: 70px;
 }
 .imagem{
@@ -37,3 +37,16 @@ border-radius: 70px;
 
 }
 
+img.link{
+    width: 60%;
+    margin-top: 15px;
+    
+}
+
+a.nav-texto{
+    font-size: 70pt;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
