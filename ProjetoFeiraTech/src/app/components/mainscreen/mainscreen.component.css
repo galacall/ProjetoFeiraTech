@@ -10,7 +10,7 @@ main {
 }
 
 .text{
-    font-weight: bolder;
+ font-weight: inherit;
     font-size: 25px;
     padding: 10px;
 }

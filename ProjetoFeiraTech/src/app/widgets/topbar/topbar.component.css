@@ -43,6 +43,7 @@ header {
     margin-right: 20px;
     width: 1000px;
     border-radius: 30px;
+    border: none;
 }
 
 .search-input {
@@ -130,10 +131,11 @@ header {
 }
 
 a.nav{
-    font-size: 20pt;
+font-size: medium;
     text-decoration: none;
     text-align: center;
-    margin-right: 10px; 
+    margin-right: 20px; 
     margin-left: 10px; 
     color: #fff;
+    font-weight: bold;
 }
