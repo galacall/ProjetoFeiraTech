@@ -1,5 +1,5 @@
 main {
-    background-color: #EBEBEB;
+    background-image: url(/assets/img/background.png);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     position: absolute;
@@ -22,19 +22,19 @@ main {
 .yellow{color: #fff500;}
 
 .container-qs{
- background-color: #CDCCD3;
+ background-color: #bebec0;
  margin: 0 auto;
  width: 85%;
  line-height: 1.5;
 font-size: x-large;
-padding: 30px;
+padding: 50px;
 border-radius: 70px;
+margin-top: 5%;
 }
 .imagem{
     float: right;
-    margin-right: 15px;
-    width: 300px;
-
+   width: 300px;
+   margin-left: 2.3%;
 }
 
 img.link{
