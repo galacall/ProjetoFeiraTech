@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #dadada;
+   background-image: url(/assets/img/background.png);
 }
 .login-container h1 {
     font-size:xx-large;
