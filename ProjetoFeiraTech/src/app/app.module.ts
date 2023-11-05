@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainscreenComponent } from './components/mainscreen/mainscreen.component';
 import { TopbarComponent } from './widgets/topbar/topbar.component';
-import { LoginComponent } from './account/login/login.component';
+import { LoginComponent } from './components/login/login.component';
 import { ArtistasComponent } from './components/artistas/artistas.component';
 import { EstudosComponent } from './components/estudos/estudos.component';
 import { ExpoComponent } from './components/expo/expo.component';

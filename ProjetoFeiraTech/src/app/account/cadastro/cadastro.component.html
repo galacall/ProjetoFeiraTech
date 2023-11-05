@@ -1,1 +1,14 @@
-<p>cadastro works!</p>
+<div class="login-container-wrapper">
+    <div class="login-container">
+        <h1>Criar minha Conta</h1>
+        <form #form="ngForm" (ngSubmit)="onSubmit()">
+            <h2>Nome</h2>
+            <input class="form-control" type="text" id="username" name="username" placeholder="Username" [(ngModel)]="account.name" required autocomplete="name" />
+            <h2>E-mail</h2>
+            <input class="form-control" type="email" id="email" placeholder="E-mail" name="email"[(ngModel)]="account.email" required autocomplete="email" />
+            <h2>Senha</h2>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Senha" name="password" [(ngModel)]="account.password" required />
+            <button class="botao-login" type="submit" [disabled]="form.form.invalid">Cadastre-se</button>
+        </form>
+    </div>
+</div>

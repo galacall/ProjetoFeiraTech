@@ -37,7 +37,7 @@
     font-weight: normal;
     color: #971111;
 }
-.login-container input[type="text"], .login-container input[type="password"] {
+.login-container input[type="email"], .login-container input[type="password"] {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
@@ -49,9 +49,8 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
     width: 100%;
-
 }
 .login-container .botao-login{
     background-color: #aa0000;
@@ -64,6 +63,10 @@
 }
 .login-container .botao-menor {
     background-color: #e08c1d;
+    margin-top: 10px;
+    border-radius: 45px;
+    width: 100%;
+    
 }
 .login-container .botao-menor:hover {
     background-color: #aa0000;
