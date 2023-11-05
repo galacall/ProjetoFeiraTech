@@ -1,0 +1,71 @@
+.login-container {
+    max-width: 500px;
+    width: 75%;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 auto; 
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.login-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(/assets/img/background.png);
+}
+.login-container h1 {
+    font-size:xx-large;
+    color: #a00c0c;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.login-container h2 {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #970000;
+    margin-top: 0px;
+}
+.login-container .text1 {
+    margin: 7.5px;
+    font-weight: normal;
+    color: #971111;
+}
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b35d5d;
+    border-radius: 10px;
+}
+.login-container button {
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;;
+    width: 100%;
+
+}
+.login-container .botao-login{
+    background-color: #aa0000;
+    color: #e9e3e3;
+    margin-top: 10px;
+    border-radius: 45px;
+}
+.login-container .botao-login:hover {
+    background-color: #e28800;
+}
+.login-container .botao-menor {
+    background-color: #e08c1d;
+}
+.login-container .botao-menor:hover {
+    background-color: #aa0000;
+    color: #ffffff;
+}
