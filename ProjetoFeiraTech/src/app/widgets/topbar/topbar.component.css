@@ -1,53 +1,90 @@
+/* Estilos comuns para todos os tamanhos de tela */
 header {
-    position: fixed; /* Fixa a barra de navegação no topo */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #700404; /* Cor de fundo da barra de navegação */
-    padding: 5px 5px; 
+    background-color: #700404;
+    padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     z-index: 999;
 }
-  
-.head-hd {
-    list-style-type: none; /* Sem bolinhas */
+
+/* Estilos para a barra de navegação (menu) */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -1000px;
+    width: 250px;
+    height: 100%;
+    background: url("/assets/img/fundo-nav.png") no-repeat center/cover;
+    color: #fff;
+    transition: left 0.3s;
+}
+
+.navbar ul {
+    list-style: none;
     padding: 0;
-    display: flex; /* Lista na horizontal */
+}
+
+.navbar li {
+    padding: 20px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+    margin-left: 0;
+    padding-left: 20px;
+    transition: margin-left 0.3s;
+}
+
+/* Estilos para o cabeçalho e menu de navegação */
+.head-hd {
+    display: flex;
     align-items: center;
+    list-style: none;
+    padding: 0;
 }
-  
+
 .head-item {
-    margin-right: 20px; /* Espaçamento entre os itens */
+    margin-right: 20px;
 }
-  
+
 .head-link {
     text-decoration: none;
-    color: #ffffff; 
-    font-weight: bold; 
+    color: #ffffff;
+    font-weight: bold;
     font-size: 30px;
     margin-right: 10px;
 }
+
 .head-titulo {
-    color: rgb(0, 204, 255);
     text-decoration: none;
+    color: #00CCFF;
     font-size: xx-large;
     font-weight: bold;
 }
 
+/* Barra de pesquisa */
 .search-container {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
+    justify-content: flex-end;
+    align-items: center;
     background-color: #ffffff;
     padding: 10px;
     margin-right: 20px;
-    width: 1000px;
     border-radius: 30px;
     border: none;
 }
 
 .search-input {
-    flex-grow: 1; 
+    flex-grow: 1;
     padding: 12px;
     border: none;
     border-radius: 4px;
@@ -62,57 +99,30 @@ header {
     cursor: pointer;
 }
 
-.menu-icon{
+/* Ícone do menu (para telas menores) */
+.menu-icon {
     color: #ffffff;
     font-size: 50px;
-    margin-right: 50px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
+/* Estilos para telas menores (até 1000px de largura) */
 @media screen and (max-width: 1000px) {
+    .search-container {
+        width: auto;
+    }
+
     .search-input {
-        flex-grow: 0; 
-        width: 50%; 
+        width: 70%;
     }
+
     .search-button {
-        margin-left: 5px; 
+        margin-left: 5px;
     }
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    left: -1000px; 
-    width: 250px;
-    height: 100%;
-    background-image: url("/assets/img/fundo-nav.png");
-    background-size: cover;
-     background-repeat: no-repeat;
-    color: #fff;
-    transition: left 0.3s;
-}
-
-.navbar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.navbar li {
-    padding: 20px;
-    position: relative;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.content {
-    margin-left: 0;
-    padding-left: 20px; 
-    transition: margin-left 0.3s;
-}
-
+/* Botão para fechar a barra de navegação (menu) */
 .close-button {
     position: absolute;
     top: 10px;
@@ -122,20 +132,22 @@ header {
     background-color: transparent;
     border: none;
     color: #fff;
-  }
+}
 
-.perfil{
+/* Estilos para o perfil (à direita) */
+.perfil {
     position: absolute;
-    right: 0%;
+    right: 0;
     padding-right: 25px;
 }
 
-a.nav{
-font-size: medium;
+/* Links de navegação no menu */
+a.nav {
+    font-size: medium;
     text-decoration: none;
     text-align: center;
-    margin-right: 20px; 
-    margin-left: 10px; 
+    margin-right: 20px;
+    margin-left: 10px;
     color: #fff;
     font-weight: bold;
 }
