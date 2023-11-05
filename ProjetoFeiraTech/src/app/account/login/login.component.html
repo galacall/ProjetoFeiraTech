@@ -1,12 +1,14 @@
 <div class="login-container-wrapper">
     <div class="login-container">
         <h1>Login</h1>
-        <h2>Nome de Usuário</h2>
-        <input type="text" placeholder="Usuário">
-        <h2>Senha</h2>
-        <input type="password" placeholder="Senha">
-        <button class="botao-login">Entrar</button>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <h2>E-mail</h2>
+            <input class="form-control" type="email" formControlName="email" placeholder="E-mail" />
+            <h2>Senha</h2>
+            <input class="form-control" type="password" formControlName="password" placeholder="Senha" />
+            <button class="botao-login" type="submit" [disabled]="loginForm.invalid">Entrar</button>
+        </form>
         <p class="text1">Ainda não tem conta?</p>
-        <button class="botao-menor">Cadastre-se</button>
+        <button class="botao-menor" type="button" [routerLink]="['/cadastre-se']">Cadastre-se</button>
     </div>
 </div>

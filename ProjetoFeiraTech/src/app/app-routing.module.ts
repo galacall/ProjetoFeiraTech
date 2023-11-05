@@ -6,16 +6,19 @@ import { ArtistasComponent } from './components/artistas/artistas.component';
 import { EstudosComponent } from './components/estudos/estudos.component';
 import { ExpoComponent } from './components/expo/expo.component';
 import { InspireseComponent } from './components/inspirese/inspirese.component';
+import { CadastroComponent } from './account/cadastro/cadastro.component';
 
 
 
 const routes: Routes = [
   { path: '', component: MainscreenComponent },
   { path: 'login', component: LoginComponent },
+  {path: 'cadastre-se', component: CadastroComponent},
   { path: 'artistas', component: ArtistasComponent},
   { path: 'estudos', component: EstudosComponent},
   { path: 'expo', component: ExpoComponent},
   { path: 'inspire-se', component: InspireseComponent},
+  
 ];
 
 @NgModule({
