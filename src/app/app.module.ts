@@ -13,6 +13,7 @@ import { EstudosComponent } from './components/estudos/estudos.component';
 import { ExpoComponent } from './components/expo/expo.component';
 import { InspireseComponent } from './components/inspirese/inspirese.component';
 import { CadastroComponent } from './account/cadastro/cadastro.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CadastroComponent } from './account/cadastro/cadastro.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
