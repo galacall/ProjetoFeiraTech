@@ -14,6 +14,7 @@ import { ExpoComponent } from './components/expo/expo.component';
 import { InspireseComponent } from './components/inspirese/inspirese.component';
 import { CadastroComponent } from './account/cadastro/cadastro.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PerfilComponent } from './components/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ExpoComponent,
     InspireseComponent,
     CadastroComponent,
+    PerfilComponent,
   ],
   imports: [
     BrowserModule,

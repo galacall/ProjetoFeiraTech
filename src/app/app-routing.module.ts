@@ -7,6 +7,7 @@ import { EstudosComponent } from './components/estudos/estudos.component';
 import { ExpoComponent } from './components/expo/expo.component';
 import { InspireseComponent } from './components/inspirese/inspirese.component';
 import { CadastroComponent } from './account/cadastro/cadastro.component';
+import { PerfilComponent } from './components/perfil/perfil.component';
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'estudos', component: EstudosComponent},
   { path: 'expo', component: ExpoComponent},
   { path: 'inspire-se', component: InspireseComponent},
+  { path: 'perfil', component: PerfilComponent},
   
 ];
 
