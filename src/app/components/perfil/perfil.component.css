@@ -1,0 +1,29 @@
+body {
+     background: #909090;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.cn-perfil{
+    float: left;
+    background-color: #C2CBCF;
+    margin-left: 2%;
+    padding: 30px;
+    border-radius: 70px;
+    margin-top: 2%;
+}
+.foto {
+    border-radius: 35px;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: blue;
+}
+div.fundo{
+    margin: 0 auto;
+}
