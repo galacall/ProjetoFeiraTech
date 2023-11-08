@@ -1,4 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+/vendor
 
 # Compiled output
 /dist
@@ -36,6 +37,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+/node_modules
 
 # System files
 .DS_Store
