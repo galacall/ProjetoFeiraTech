@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AccountService } from '../../account/shared/account.service';
-import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -13,25 +12,36 @@ export class LoginComponent {
 
   constructor(
     private fb: FormBuilder,
-    private accountService: AccountService,
-    private router: Router
+    private http: HttpClient
   ) {
     this.loginForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
-      password: ['', Validators.required]
-    });
+      senha: ['', Validators.required]  
+    });    
   }
 
-  async onSubmit() {
+  onSubmit() {
     if (this.loginForm.valid) {
-      const { email, password } = this.loginForm.value;
-      try {
-        const result = await this.accountService.login({ email, password });
-        console.log(`Login Efetuado: ${result}`);
-        this.router.navigate(['']);
-      } catch (error) {
-        console.error(error);
-      }
+      const { email, senha } = this.loginForm.value;  // Alterado de 'password' para 'senha'
+      const loginData = { email, senha };
+      this.http.post<any>('http://localhost:8000/api.php', loginData)
+        .subscribe(
+          (response) => {
+            console.log('Resposta do servidor:', response);
+            if (response && response.message === 'Login bem-sucedido') {
+              console.log('Login efetuado com sucesso:', response.message);
+              // Redirecione ou realize ações adicionais aqui
+            } else {
+              console.error('Resposta inválida do servidor:', response);
+            }
+          },
+          (error) => {
+            console.error('Erro durante o login:', error);
+          }
+        );
     }
   }
 }
+/*
+'http://localhost:8000/api.php'
+*/
