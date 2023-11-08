@@ -58,3 +58,8 @@
     </form>
 </body>
 </html>
+
+<form enctype="multipart/form-data" action="">
+        <input type="file">
+        <button type="submit">Enviar arquivo</button>
+    </form>
